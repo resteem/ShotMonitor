@@ -13,6 +13,7 @@ namespace prjShotMonitor
 
             Console.WriteLine("Press Enter to exit");
             Console.ReadLine();
+            actionManager.Stop();
         }
     }
 }
