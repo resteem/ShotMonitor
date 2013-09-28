@@ -24,7 +24,7 @@ namespace prjShotMonitor.Actions
             string dir = get_destination_dir();
             if (dir != String.Empty)
             {
-                string filename = dir + '\\' + DateTime.Now.ToString("yyyyMMddHHmmssfff") + '_' + ShotResult.Name;
+                string filename = dir + '\\' + ShotResult.Name + '_' + DateTime.Now.ToString("yyyyMMdd-HHmmss-fff");
                 switch (settings.FileFormat)
                 {
                     case CShotActionSettings.IT_JPG:
