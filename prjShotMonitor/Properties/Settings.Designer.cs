@@ -25,7 +25,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\Desktop\\3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\Desktop\\_shotmaster")]
         public string DestinationFolder {
             get {
                 return ((string)(this["DestinationFolder"]));

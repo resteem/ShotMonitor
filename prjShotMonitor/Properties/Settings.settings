@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="DestinationFolder" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\Desktop\3</Value>
+      <Value Profile="(Default)">\Desktop\_shotmaster</Value>
     </Setting>
     <Setting Name="FileFormat" Type="System.Byte" Scope="User">
       <Value Profile="(Default)">0</Value>
