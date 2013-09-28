@@ -8,6 +8,11 @@ namespace prjShotMonitor
     {
         static void Main(string[] args)
         {
+            CActionManager actionManager = new CActionManager();
+            actionManager.Start();
+
+            Console.WriteLine("Press Enter to exit");
+            Console.ReadLine();
         }
     }
 }

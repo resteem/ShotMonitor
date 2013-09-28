@@ -61,7 +61,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
         public int TimerInterval {
             get {
                 return ((int)(this["TimerInterval"]));
@@ -85,7 +85,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("D:\\Codding\\desktop\\ShotMonitor\\prjShotMonitor\\res\\sound\\shot.wav")]
+        [global::System.Configuration.DefaultSettingValueAttribute("res\\sound\\shot.wav")]
         public string SoundLocation {
             get {
                 return ((string)(this["SoundLocation"]));
@@ -97,7 +97,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\Desktop\\3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\Desktop\\_shotmaster")]
         public string DestinationFolderS {
             get {
                 return ((string)(this["DestinationFolderS"]));
@@ -109,7 +109,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\Desktop\\3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\Desktop\\_shotmaster")]
         public string DestinationFolderW {
             get {
                 return ((string)(this["DestinationFolderW"]));
@@ -181,7 +181,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
         public int TimerIntervalW {
             get {
                 return ((int)(this["TimerIntervalW"]));
@@ -217,7 +217,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("-1")]
         public int DeviceIndexW {
             get {
                 return ((int)(this["DeviceIndexW"]));

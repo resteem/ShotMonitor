@@ -12,19 +12,19 @@
       <Value Profile="(Default)">20</Value>
     </Setting>
     <Setting Name="TimerInterval" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5</Value>
+      <Value Profile="(Default)">10</Value>
     </Setting>
     <Setting Name="PlaySound" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
     <Setting Name="SoundLocation" Type="System.String" Scope="User">
-      <Value Profile="(Default)">D:\Codding\desktop\ShotMonitor\prjShotMonitor\res\sound\shot.wav</Value>
+      <Value Profile="(Default)">res\sound\shot.wav</Value>
     </Setting>
     <Setting Name="DestinationFolderS" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\Desktop\3</Value>
+      <Value Profile="(Default)">\Desktop\_shotmaster</Value>
     </Setting>
     <Setting Name="DestinationFolderW" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\Desktop\3</Value>
+      <Value Profile="(Default)">\Desktop\_shotmaster</Value>
     </Setting>
     <Setting Name="FileFormatS" Type="System.Byte" Scope="User">
       <Value Profile="(Default)">0</Value>
@@ -42,7 +42,7 @@
       <Value Profile="(Default)">10</Value>
     </Setting>
     <Setting Name="TimerIntervalW" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">5</Value>
+      <Value Profile="(Default)">10</Value>
     </Setting>
     <Setting Name="DeviceIndex" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">-1</Value>
@@ -51,7 +51,7 @@
       <Value Profile="(Default)">-1</Value>
     </Setting>
     <Setting Name="DeviceIndexW" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">1</Value>
+      <Value Profile="(Default)">-1</Value>
     </Setting>
   </Settings>
 </SettingsFile>
