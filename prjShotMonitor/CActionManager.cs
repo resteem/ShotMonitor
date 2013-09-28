@@ -3,6 +3,7 @@ using prjShotMonitor.Actions;
 using System.Media;
 using System.Collections;
 using System.Collections.Specialized;
+using System.Reflection;
 
 namespace prjShotMonitor
 {
@@ -130,8 +131,8 @@ namespace prjShotMonitor
             }
             // применить настройки
             CShotActionSettings ActionSettings = new CShotActionSettings();
-            var props = typeof(CShotActionSettings).GetProperties();
-            foreach (var prop in props)
+            PropertyInfo[] props = typeof(CShotActionSettings).GetProperties();
+            foreach (PropertyInfo prop in props)
             {
                 prop.SetValue(ActionSettings, Properties.Settings.Default[prop.Name + action_code]);
             }
