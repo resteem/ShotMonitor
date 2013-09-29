@@ -12,10 +12,10 @@
       <Value Profile="(Default)">20</Value>
     </Setting>
     <Setting Name="TimerInterval" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">10</Value>
+      <Value Profile="(Default)">60</Value>
     </Setting>
     <Setting Name="PlaySound" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+      <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="SoundLocation" Type="System.String" Scope="User">
       <Value Profile="(Default)">res\sound\shot.wav</Value>
@@ -39,10 +39,10 @@
       <Value Profile="(Default)">90</Value>
     </Setting>
     <Setting Name="TimerIntervalS" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">10</Value>
+      <Value Profile="(Default)">60</Value>
     </Setting>
     <Setting Name="TimerIntervalW" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">10</Value>
+      <Value Profile="(Default)">60</Value>
     </Setting>
     <Setting Name="DeviceIndex" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">-1</Value>

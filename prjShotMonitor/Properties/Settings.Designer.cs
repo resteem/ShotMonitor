@@ -61,7 +61,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        [global::System.Configuration.DefaultSettingValueAttribute("60")]
         public int TimerInterval {
             get {
                 return ((int)(this["TimerInterval"]));
@@ -73,7 +73,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
         public bool PlaySound {
             get {
                 return ((bool)(this["PlaySound"]));
@@ -169,7 +169,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        [global::System.Configuration.DefaultSettingValueAttribute("60")]
         public int TimerIntervalS {
             get {
                 return ((int)(this["TimerIntervalS"]));
@@ -181,7 +181,7 @@ namespace prjShotMonitor.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        [global::System.Configuration.DefaultSettingValueAttribute("60")]
         public int TimerIntervalW {
             get {
                 return ((int)(this["TimerIntervalW"]));
